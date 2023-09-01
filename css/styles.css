@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+   font-family: 'Roboto', sans-serif;
+   overflow-x: hidden;
+}
+
+
+.bannerBgImage {
+   height: 100vh;
+   background: url("../images/1.jpg");
+   background-size: 100% 100%;
+   align-items: center;
+   position: relative;
+}
+
+.bannerText {
+   text-align: left;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+}
+.navbar-brand{
+   color: white;
+}
+.text-center::after{
+   content: "";
+   position: relative;
+   bottom: -5px;
+   height: 4px;
+   width: 100%;
+   left: 0;
+   background-color: black;
+   transition: 0.3s;
+   transition-timing-function: ease-in-out;
+   transform: scaleX(0);
+}
+#pic1{
+    width:100%;
+    height: 300px;
+    width:100%;
+    height: 350px;
+    border-radius: 0 25px 25px 0;
+
+}
+.navbar{
+   background-color:rgba(105, 130, 16, 0.325);
+   color: white;
+}
+.nav-link{
+   color: white;
+}
+#twopics{
+    width:100%;
+    height: 350px;
+    border-radius: 25px 0 0 25px;
+  
+}
+#sction1{
+   background-color: red;
+} 
+
+
+#pthree{
+    border-radius: 25px 0 0 25px;
+   
+}
+
+.bannerTitle {
+   font-size: 3rem;
+}
+
+.bannerDesc {
+   font-size: 2rem;
+}
+.nav-item a:hover {
+   border: 2.5px solid white;
+   background-color: cadetblue;
+   transform: .5s core;
+   overflow: hidden;
+}
+.mt-4 a{
+   font-size: 35px;
+   color: white;
+}
